@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="9.219682 us"></ZoomEndTime>
+      <Cursor1Time time="1.275000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="212"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_top_module/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="group323" type="group">
+      <obj_property name="label">Core_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/req_valid" type="logic">
+         <obj_property name="ElementShortName">req_valid</obj_property>
+         <obj_property name="ObjectShortName">req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/req_ready" type="logic">
+         <obj_property name="ElementShortName">req_ready</obj_property>
+         <obj_property name="ObjectShortName">req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/req_rw" type="logic">
+         <obj_property name="ElementShortName">req_rw</obj_property>
+         <obj_property name="ObjectShortName">req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/req_addr" type="array">
+         <obj_property name="ElementShortName">req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/req_data" type="array">
+         <obj_property name="ElementShortName">req_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/req_strb" type="array">
+         <obj_property name="ElementShortName">req_strb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">req_strb[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/resp_valid" type="logic">
+         <obj_property name="ElementShortName">resp_valid</obj_property>
+         <obj_property name="ObjectShortName">resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/resp_ready" type="logic">
+         <obj_property name="ElementShortName">resp_ready</obj_property>
+         <obj_property name="ObjectShortName">resp_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/resp_rdata" type="array">
+         <obj_property name="ElementShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/prog_rom_ena" type="logic">
+         <obj_property name="ElementShortName">prog_rom_ena</obj_property>
+         <obj_property name="ObjectShortName">prog_rom_ena</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/pc" type="array">
+         <obj_property name="ElementShortName">pc[5:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[5:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/instr" type="array">
+         <obj_property name="ElementShortName">instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/wdata_reg" type="array">
+         <obj_property name="ElementShortName">wdata_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata_reg[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/rdata_reg" type="array">
+         <obj_property name="ElementShortName">rdata_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_reg[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/prog_rom_out" type="array">
+         <obj_property name="ElementShortName">prog_rom_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">prog_rom_out[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/delay_counter_value" type="array">
+         <obj_property name="ElementShortName">delay_counter_value[9:0]</obj_property>
+         <obj_property name="ObjectShortName">delay_counter_value[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/prog_delay_value" type="array">
+         <obj_property name="ElementShortName">prog_delay_value[9:0]</obj_property>
+         <obj_property name="ObjectShortName">prog_delay_value[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_0/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group344" type="group">
+      <obj_property name="label">Core_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/req_valid" type="logic">
+         <obj_property name="ElementShortName">req_valid</obj_property>
+         <obj_property name="ObjectShortName">req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/req_ready" type="logic">
+         <obj_property name="ElementShortName">req_ready</obj_property>
+         <obj_property name="ObjectShortName">req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/req_rw" type="logic">
+         <obj_property name="ElementShortName">req_rw</obj_property>
+         <obj_property name="ObjectShortName">req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/req_addr" type="array">
+         <obj_property name="ElementShortName">req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/req_data" type="array">
+         <obj_property name="ElementShortName">req_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/req_strb" type="array">
+         <obj_property name="ElementShortName">req_strb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">req_strb[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/resp_valid" type="logic">
+         <obj_property name="ElementShortName">resp_valid</obj_property>
+         <obj_property name="ObjectShortName">resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/resp_ready" type="logic">
+         <obj_property name="ElementShortName">resp_ready</obj_property>
+         <obj_property name="ObjectShortName">resp_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/resp_rdata" type="array">
+         <obj_property name="ElementShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/prog_rom_ena" type="logic">
+         <obj_property name="ElementShortName">prog_rom_ena</obj_property>
+         <obj_property name="ObjectShortName">prog_rom_ena</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/pc" type="array">
+         <obj_property name="ElementShortName">pc[5:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[5:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/instr" type="array">
+         <obj_property name="ElementShortName">instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/wdata_reg" type="array">
+         <obj_property name="ElementShortName">wdata_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata_reg[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/rdata_reg" type="array">
+         <obj_property name="ElementShortName">rdata_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_reg[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/prog_rom_out" type="array">
+         <obj_property name="ElementShortName">prog_rom_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">prog_rom_out[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/delay_counter_value" type="array">
+         <obj_property name="ElementShortName">delay_counter_value[9:0]</obj_property>
+         <obj_property name="ObjectShortName">delay_counter_value[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/prog_delay_value" type="array">
+         <obj_property name="ElementShortName">prog_delay_value[9:0]</obj_property>
+         <obj_property name="ObjectShortName">prog_delay_value[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/CORE_GEN_1/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group416" type="group">
+      <obj_property name="label">Cache_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_valid" type="logic">
+         <obj_property name="ElementShortName">req_valid</obj_property>
+         <obj_property name="ObjectShortName">req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_ready" type="logic">
+         <obj_property name="ElementShortName">req_ready</obj_property>
+         <obj_property name="ObjectShortName">req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_rw" type="logic">
+         <obj_property name="ElementShortName">req_rw</obj_property>
+         <obj_property name="ObjectShortName">req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_addr" type="array">
+         <obj_property name="ElementShortName">req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_data" type="array">
+         <obj_property name="ElementShortName">req_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_strb" type="array">
+         <obj_property name="ElementShortName">req_strb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">req_strb[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/resp_ready" type="logic">
+         <obj_property name="ElementShortName">resp_ready</obj_property>
+         <obj_property name="ObjectShortName">resp_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/resp_valid" type="logic">
+         <obj_property name="ElementShortName">resp_valid</obj_property>
+         <obj_property name="ObjectShortName">resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/resp_rdata" type="array">
+         <obj_property name="ElementShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_req_ready" type="logic">
+         <obj_property name="ElementShortName">bus_req_ready</obj_property>
+         <obj_property name="ObjectShortName">bus_req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_req_valid" type="logic">
+         <obj_property name="ElementShortName">bus_req_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_req_cmd" type="array">
+         <obj_property name="ElementShortName">bus_req_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_req_cmd[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_req_addr" type="array">
+         <obj_property name="ElementShortName">bus_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_req_data" type="array">
+         <obj_property name="ElementShortName">bus_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_req_data[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_resp_valid" type="logic">
+         <obj_property name="ElementShortName">bus_resp_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_resp_shared" type="logic">
+         <obj_property name="ElementShortName">bus_resp_shared</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_shared</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_resp_rdata" type="array">
+         <obj_property name="ElementShortName">bus_resp_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_rdata[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_valid" type="logic">
+         <obj_property name="ElementShortName">snoop_valid</obj_property>
+         <obj_property name="ObjectShortName">snoop_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_cmd" type="array">
+         <obj_property name="ElementShortName">snoop_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_cmd[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_addr" type="array">
+         <obj_property name="ElementShortName">snoop_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_src_id" type="array">
+         <obj_property name="ElementShortName">snoop_src_id[0:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_src_id[0:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_hit" type="logic">
+         <obj_property name="ElementShortName">snoop_hit</obj_property>
+         <obj_property name="ObjectShortName">snoop_hit</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_dirty" type="logic">
+         <obj_property name="ElementShortName">snoop_dirty</obj_property>
+         <obj_property name="ObjectShortName">snoop_dirty</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_data_valid" type="logic">
+         <obj_property name="ElementShortName">snoop_data_valid</obj_property>
+         <obj_property name="ObjectShortName">snoop_data_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_data" type="array">
+         <obj_property name="ElementShortName">snoop_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_data[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/tag_array" type="array">
+         <obj_property name="ElementShortName">tag_array[0:31][0:1][21:0]</obj_property>
+         <obj_property name="ObjectShortName">tag_array[0:31][0:1][21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/valid_array" type="array">
+         <obj_property name="ElementShortName">valid_array[0:31][0:1]</obj_property>
+         <obj_property name="ObjectShortName">valid_array[0:31][0:1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/dirty_array" type="array">
+         <obj_property name="ElementShortName">dirty_array[0:31][0:1]</obj_property>
+         <obj_property name="ObjectShortName">dirty_array[0:31][0:1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/data_line_array" type="array">
+         <obj_property name="ElementShortName">data_line_array[0:31][0:1][255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_line_array[0:31][0:1][255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/lru_array" type="array">
+         <obj_property name="ElementShortName">lru_array[0:31]</obj_property>
+         <obj_property name="ObjectShortName">lru_array[0:31]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/mesi_array" type="array">
+         <obj_property name="ElementShortName">mesi_array[0:31][0:1][1:0]</obj_property>
+         <obj_property name="ObjectShortName">mesi_array[0:31][0:1][1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/latched_req_rw" type="logic">
+         <obj_property name="ElementShortName">latched_req_rw</obj_property>
+         <obj_property name="ObjectShortName">latched_req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/latched_req_addr" type="array">
+         <obj_property name="ElementShortName">latched_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/latched_req_data" type="array">
+         <obj_property name="ElementShortName">latched_req_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_req_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_data_reg" type="array">
+         <obj_property name="ElementShortName">req_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_data_reg[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_resp_data_reg" type="array">
+         <obj_property name="ElementShortName">bus_resp_data_reg[255:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_data_reg[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/bus_resp_shared_reg" type="logic">
+         <obj_property name="ElementShortName">bus_resp_shared_reg</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_shared_reg</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_tag" type="array">
+         <obj_property name="ElementShortName">req_tag[21:0]</obj_property>
+         <obj_property name="ObjectShortName">req_tag[21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_index" type="array">
+         <obj_property name="ElementShortName">req_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">req_index[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_offset" type="array">
+         <obj_property name="ElementShortName">req_offset[4:0]</obj_property>
+         <obj_property name="ObjectShortName">req_offset[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_word_sel" type="array">
+         <obj_property name="ElementShortName">req_word_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">req_word_sel[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/req_line_addr" type="array">
+         <obj_property name="ElementShortName">req_line_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_line_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/valid_way0" type="logic">
+         <obj_property name="ElementShortName">valid_way0</obj_property>
+         <obj_property name="ObjectShortName">valid_way0</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/valid_way1" type="logic">
+         <obj_property name="ElementShortName">valid_way1</obj_property>
+         <obj_property name="ObjectShortName">valid_way1</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/hit_way0" type="logic">
+         <obj_property name="ElementShortName">hit_way0</obj_property>
+         <obj_property name="ObjectShortName">hit_way0</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/hit_way1" type="logic">
+         <obj_property name="ElementShortName">hit_way1</obj_property>
+         <obj_property name="ObjectShortName">hit_way1</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/hit_way" type="logic">
+         <obj_property name="ElementShortName">hit_way</obj_property>
+         <obj_property name="ObjectShortName">hit_way</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/hit" type="logic">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/hit_line" type="array">
+         <obj_property name="ElementShortName">hit_line[255:0]</obj_property>
+         <obj_property name="ObjectShortName">hit_line[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/hit_mesi" type="array">
+         <obj_property name="ElementShortName">hit_mesi[1:0]</obj_property>
+         <obj_property name="ObjectShortName">hit_mesi[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_way" type="logic">
+         <obj_property name="ElementShortName">victim_way</obj_property>
+         <obj_property name="ObjectShortName">victim_way</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_line" type="array">
+         <obj_property name="ElementShortName">victim_line[255:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_line[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_tag" type="array">
+         <obj_property name="ElementShortName">victim_tag[21:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_tag[21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_valid" type="logic">
+         <obj_property name="ElementShortName">victim_valid</obj_property>
+         <obj_property name="ObjectShortName">victim_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_dirty" type="logic">
+         <obj_property name="ElementShortName">victim_dirty</obj_property>
+         <obj_property name="ObjectShortName">victim_dirty</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_mesi" type="array">
+         <obj_property name="ElementShortName">victim_mesi[1:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_mesi[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/victim_addr" type="array">
+         <obj_property name="ElementShortName">victim_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_index" type="array">
+         <obj_property name="ElementShortName">snoop_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_index[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_tag" type="array">
+         <obj_property name="ElementShortName">snoop_tag[21:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_tag[21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_match0" type="logic">
+         <obj_property name="ElementShortName">snoop_match0</obj_property>
+         <obj_property name="ObjectShortName">snoop_match0</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_match1" type="logic">
+         <obj_property name="ElementShortName">snoop_match1</obj_property>
+         <obj_property name="ObjectShortName">snoop_match1</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_match" type="logic">
+         <obj_property name="ElementShortName">snoop_match</obj_property>
+         <obj_property name="ObjectShortName">snoop_match</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_way" type="logic">
+         <obj_property name="ElementShortName">snoop_way</obj_property>
+         <obj_property name="ObjectShortName">snoop_way</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_line" type="array">
+         <obj_property name="ElementShortName">snoop_line[256:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_line[256:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/snoop_state" type="array">
+         <obj_property name="ElementShortName">snoop_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_state[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_0/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group488" type="group">
+      <obj_property name="label">Cache_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_valid" type="logic">
+         <obj_property name="ElementShortName">req_valid</obj_property>
+         <obj_property name="ObjectShortName">req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_ready" type="logic">
+         <obj_property name="ElementShortName">req_ready</obj_property>
+         <obj_property name="ObjectShortName">req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_rw" type="logic">
+         <obj_property name="ElementShortName">req_rw</obj_property>
+         <obj_property name="ObjectShortName">req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_addr" type="array">
+         <obj_property name="ElementShortName">req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_data" type="array">
+         <obj_property name="ElementShortName">req_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_strb" type="array">
+         <obj_property name="ElementShortName">req_strb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">req_strb[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/resp_ready" type="logic">
+         <obj_property name="ElementShortName">resp_ready</obj_property>
+         <obj_property name="ObjectShortName">resp_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/resp_valid" type="logic">
+         <obj_property name="ElementShortName">resp_valid</obj_property>
+         <obj_property name="ObjectShortName">resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/resp_rdata" type="array">
+         <obj_property name="ElementShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">resp_rdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_req_ready" type="logic">
+         <obj_property name="ElementShortName">bus_req_ready</obj_property>
+         <obj_property name="ObjectShortName">bus_req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_req_valid" type="logic">
+         <obj_property name="ElementShortName">bus_req_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_req_cmd" type="array">
+         <obj_property name="ElementShortName">bus_req_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_req_cmd[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_req_addr" type="array">
+         <obj_property name="ElementShortName">bus_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_req_data" type="array">
+         <obj_property name="ElementShortName">bus_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_req_data[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_resp_valid" type="logic">
+         <obj_property name="ElementShortName">bus_resp_valid</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_resp_shared" type="logic">
+         <obj_property name="ElementShortName">bus_resp_shared</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_shared</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_resp_rdata" type="array">
+         <obj_property name="ElementShortName">bus_resp_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_rdata[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_valid" type="logic">
+         <obj_property name="ElementShortName">snoop_valid</obj_property>
+         <obj_property name="ObjectShortName">snoop_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_cmd" type="array">
+         <obj_property name="ElementShortName">snoop_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_cmd[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_addr" type="array">
+         <obj_property name="ElementShortName">snoop_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_src_id" type="array">
+         <obj_property name="ElementShortName">snoop_src_id[0:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_src_id[0:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_hit" type="logic">
+         <obj_property name="ElementShortName">snoop_hit</obj_property>
+         <obj_property name="ObjectShortName">snoop_hit</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_dirty" type="logic">
+         <obj_property name="ElementShortName">snoop_dirty</obj_property>
+         <obj_property name="ObjectShortName">snoop_dirty</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_data_valid" type="logic">
+         <obj_property name="ElementShortName">snoop_data_valid</obj_property>
+         <obj_property name="ObjectShortName">snoop_data_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_data" type="array">
+         <obj_property name="ElementShortName">snoop_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_data[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/tag_array" type="array">
+         <obj_property name="ElementShortName">tag_array[0:31][0:1][21:0]</obj_property>
+         <obj_property name="ObjectShortName">tag_array[0:31][0:1][21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/valid_array" type="array">
+         <obj_property name="ElementShortName">valid_array[0:31][0:1]</obj_property>
+         <obj_property name="ObjectShortName">valid_array[0:31][0:1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/dirty_array" type="array">
+         <obj_property name="ElementShortName">dirty_array[0:31][0:1]</obj_property>
+         <obj_property name="ObjectShortName">dirty_array[0:31][0:1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/data_line_array" type="array">
+         <obj_property name="ElementShortName">data_line_array[0:31][0:1][255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_line_array[0:31][0:1][255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/lru_array" type="array">
+         <obj_property name="ElementShortName">lru_array[0:31]</obj_property>
+         <obj_property name="ObjectShortName">lru_array[0:31]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/mesi_array" type="array">
+         <obj_property name="ElementShortName">mesi_array[0:31][0:1][1:0]</obj_property>
+         <obj_property name="ObjectShortName">mesi_array[0:31][0:1][1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/latched_req_rw" type="logic">
+         <obj_property name="ElementShortName">latched_req_rw</obj_property>
+         <obj_property name="ObjectShortName">latched_req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/latched_req_addr" type="array">
+         <obj_property name="ElementShortName">latched_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/latched_req_data" type="array">
+         <obj_property name="ElementShortName">latched_req_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_req_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_data_reg" type="array">
+         <obj_property name="ElementShortName">req_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_data_reg[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_resp_data_reg" type="array">
+         <obj_property name="ElementShortName">bus_resp_data_reg[255:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_data_reg[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/bus_resp_shared_reg" type="logic">
+         <obj_property name="ElementShortName">bus_resp_shared_reg</obj_property>
+         <obj_property name="ObjectShortName">bus_resp_shared_reg</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_tag" type="array">
+         <obj_property name="ElementShortName">req_tag[21:0]</obj_property>
+         <obj_property name="ObjectShortName">req_tag[21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_index" type="array">
+         <obj_property name="ElementShortName">req_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">req_index[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_offset" type="array">
+         <obj_property name="ElementShortName">req_offset[4:0]</obj_property>
+         <obj_property name="ObjectShortName">req_offset[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_word_sel" type="array">
+         <obj_property name="ElementShortName">req_word_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">req_word_sel[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/req_line_addr" type="array">
+         <obj_property name="ElementShortName">req_line_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">req_line_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/valid_way0" type="logic">
+         <obj_property name="ElementShortName">valid_way0</obj_property>
+         <obj_property name="ObjectShortName">valid_way0</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/valid_way1" type="logic">
+         <obj_property name="ElementShortName">valid_way1</obj_property>
+         <obj_property name="ObjectShortName">valid_way1</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/hit_way0" type="logic">
+         <obj_property name="ElementShortName">hit_way0</obj_property>
+         <obj_property name="ObjectShortName">hit_way0</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/hit_way1" type="logic">
+         <obj_property name="ElementShortName">hit_way1</obj_property>
+         <obj_property name="ObjectShortName">hit_way1</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/hit_way" type="logic">
+         <obj_property name="ElementShortName">hit_way</obj_property>
+         <obj_property name="ObjectShortName">hit_way</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/hit" type="logic">
+         <obj_property name="ElementShortName">hit</obj_property>
+         <obj_property name="ObjectShortName">hit</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/hit_line" type="array">
+         <obj_property name="ElementShortName">hit_line[255:0]</obj_property>
+         <obj_property name="ObjectShortName">hit_line[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/hit_mesi" type="array">
+         <obj_property name="ElementShortName">hit_mesi[1:0]</obj_property>
+         <obj_property name="ObjectShortName">hit_mesi[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_way" type="logic">
+         <obj_property name="ElementShortName">victim_way</obj_property>
+         <obj_property name="ObjectShortName">victim_way</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_line" type="array">
+         <obj_property name="ElementShortName">victim_line[255:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_line[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_tag" type="array">
+         <obj_property name="ElementShortName">victim_tag[21:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_tag[21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_valid" type="logic">
+         <obj_property name="ElementShortName">victim_valid</obj_property>
+         <obj_property name="ObjectShortName">victim_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_dirty" type="logic">
+         <obj_property name="ElementShortName">victim_dirty</obj_property>
+         <obj_property name="ObjectShortName">victim_dirty</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_mesi" type="array">
+         <obj_property name="ElementShortName">victim_mesi[1:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_mesi[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/victim_addr" type="array">
+         <obj_property name="ElementShortName">victim_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">victim_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_index" type="array">
+         <obj_property name="ElementShortName">snoop_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_index[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_tag" type="array">
+         <obj_property name="ElementShortName">snoop_tag[21:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_tag[21:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_match0" type="logic">
+         <obj_property name="ElementShortName">snoop_match0</obj_property>
+         <obj_property name="ObjectShortName">snoop_match0</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_match1" type="logic">
+         <obj_property name="ElementShortName">snoop_match1</obj_property>
+         <obj_property name="ObjectShortName">snoop_match1</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_match" type="logic">
+         <obj_property name="ElementShortName">snoop_match</obj_property>
+         <obj_property name="ObjectShortName">snoop_match</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_way" type="logic">
+         <obj_property name="ElementShortName">snoop_way</obj_property>
+         <obj_property name="ObjectShortName">snoop_way</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_line" type="array">
+         <obj_property name="ElementShortName">snoop_line[256:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_line[256:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/snoop_state" type="array">
+         <obj_property name="ElementShortName">snoop_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_state[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/L1_CACHE_1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group537" type="group">
+      <obj_property name="label">Bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_req_valid" type="logic">
+         <obj_property name="ElementShortName">c0_req_valid</obj_property>
+         <obj_property name="ObjectShortName">c0_req_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_req_ready" type="logic">
+         <obj_property name="ElementShortName">c0_req_ready</obj_property>
+         <obj_property name="ObjectShortName">c0_req_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_req_cmd" type="array">
+         <obj_property name="ElementShortName">c0_req_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">c0_req_cmd[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_req_addr" type="array">
+         <obj_property name="ElementShortName">c0_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c0_req_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_req_data" type="array">
+         <obj_property name="ElementShortName">c0_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">c0_req_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_resp_valid" type="logic">
+         <obj_property name="ElementShortName">c0_resp_valid</obj_property>
+         <obj_property name="ObjectShortName">c0_resp_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_resp_shared" type="logic">
+         <obj_property name="ElementShortName">c0_resp_shared</obj_property>
+         <obj_property name="ObjectShortName">c0_resp_shared</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_resp_rdata" type="array">
+         <obj_property name="ElementShortName">c0_resp_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">c0_resp_rdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_req_valid" type="logic">
+         <obj_property name="ElementShortName">c1_req_valid</obj_property>
+         <obj_property name="ObjectShortName">c1_req_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_req_ready" type="logic">
+         <obj_property name="ElementShortName">c1_req_ready</obj_property>
+         <obj_property name="ObjectShortName">c1_req_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_req_cmd" type="array">
+         <obj_property name="ElementShortName">c1_req_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">c1_req_cmd[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_req_addr" type="array">
+         <obj_property name="ElementShortName">c1_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c1_req_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_req_data" type="array">
+         <obj_property name="ElementShortName">c1_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">c1_req_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_resp_valid" type="logic">
+         <obj_property name="ElementShortName">c1_resp_valid</obj_property>
+         <obj_property name="ObjectShortName">c1_resp_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_resp_shared" type="logic">
+         <obj_property name="ElementShortName">c1_resp_shared</obj_property>
+         <obj_property name="ObjectShortName">c1_resp_shared</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_resp_rdata" type="array">
+         <obj_property name="ElementShortName">c1_resp_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">c1_resp_rdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_snoop_hit" type="logic">
+         <obj_property name="ElementShortName">c0_snoop_hit</obj_property>
+         <obj_property name="ObjectShortName">c0_snoop_hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_snoop_dirty" type="logic">
+         <obj_property name="ElementShortName">c0_snoop_dirty</obj_property>
+         <obj_property name="ObjectShortName">c0_snoop_dirty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_snoop_data_valid" type="logic">
+         <obj_property name="ElementShortName">c0_snoop_data_valid</obj_property>
+         <obj_property name="ObjectShortName">c0_snoop_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c0_snoop_data" type="array">
+         <obj_property name="ElementShortName">c0_snoop_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">c0_snoop_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_snoop_hit" type="logic">
+         <obj_property name="ElementShortName">c1_snoop_hit</obj_property>
+         <obj_property name="ObjectShortName">c1_snoop_hit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_snoop_dirty" type="logic">
+         <obj_property name="ElementShortName">c1_snoop_dirty</obj_property>
+         <obj_property name="ObjectShortName">c1_snoop_dirty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_snoop_data_valid" type="logic">
+         <obj_property name="ElementShortName">c1_snoop_data_valid</obj_property>
+         <obj_property name="ObjectShortName">c1_snoop_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/c1_snoop_data" type="array">
+         <obj_property name="ElementShortName">c1_snoop_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">c1_snoop_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/snoop_valid" type="logic">
+         <obj_property name="ElementShortName">snoop_valid</obj_property>
+         <obj_property name="ObjectShortName">snoop_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/snoop_cmd" type="array">
+         <obj_property name="ElementShortName">snoop_cmd[1:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_cmd[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/snoop_addr" type="array">
+         <obj_property name="ElementShortName">snoop_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/snoop_src_id" type="array">
+         <obj_property name="ElementShortName">snoop_src_id[0:0]</obj_property>
+         <obj_property name="ObjectShortName">snoop_src_id[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_req_ready" type="logic">
+         <obj_property name="ElementShortName">mem_req_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_req_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_req_valid" type="logic">
+         <obj_property name="ElementShortName">mem_req_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_req_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_req_rw" type="logic">
+         <obj_property name="ElementShortName">mem_req_rw</obj_property>
+         <obj_property name="ObjectShortName">mem_req_rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_req_addr" type="array">
+         <obj_property name="ElementShortName">mem_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_req_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_req_data" type="array">
+         <obj_property name="ElementShortName">mem_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_req_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_resp_valid" type="logic">
+         <obj_property name="ElementShortName">mem_resp_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_resp_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/mem_resp_rdata" type="array">
+         <obj_property name="ElementShortName">mem_resp_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_resp_rdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/SNOOP_BUS/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group555" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_req_valid" type="logic">
+         <obj_property name="ElementShortName">mem_req_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_req_valid</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_req_ready" type="logic">
+         <obj_property name="ElementShortName">mem_req_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_req_ready</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_req_rw" type="logic">
+         <obj_property name="ElementShortName">mem_req_rw</obj_property>
+         <obj_property name="ObjectShortName">mem_req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_req_addr" type="array">
+         <obj_property name="ElementShortName">mem_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_req_data" type="array">
+         <obj_property name="ElementShortName">mem_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_req_data[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_resp_valid" type="logic">
+         <obj_property name="ElementShortName">mem_resp_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_resp_valid</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/mem_resp_rdata" type="array">
+         <obj_property name="ElementShortName">mem_resp_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_resp_rdata[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/latched_req_rw" type="logic">
+         <obj_property name="ElementShortName">latched_req_rw</obj_property>
+         <obj_property name="ObjectShortName">latched_req_rw</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/latched_req_addr" type="array">
+         <obj_property name="ElementShortName">latched_req_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_req_addr[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/latched_req_data" type="array">
+         <obj_property name="ElementShortName">latched_req_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">latched_req_data[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/read_data_reg" type="array">
+         <obj_property name="ElementShortName">read_data_reg[255:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data_reg[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/latency_counter" type="array">
+         <obj_property name="ElementShortName">latency_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">latency_counter[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/line_address" type="array">
+         <obj_property name="ElementShortName">line_address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">line_address[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/ena_ram" type="logic">
+         <obj_property name="ElementShortName">ena_ram</obj_property>
+         <obj_property name="ObjectShortName">ena_ram</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module/UUT/RAM/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

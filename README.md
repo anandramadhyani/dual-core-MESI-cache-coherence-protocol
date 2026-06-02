@@ -93,7 +93,7 @@ clock relaxation from 100MHz to 76.9MHz.
 ## How to Simulate
 
 1. Clone the repository 
-	git clone https://github.com/Dual-Core-MESI-Protocol/dual-core-MESI-cache-coherence-protocol
+https://github.com/Dual-Core-MESI-Protocol/dual-core-MESI-cache-coherence-protocol
 2. Open Vivado and create a new RTL project
 3. Add all files from `rtl/` as design sources
 4. Add your target file from `sim/` as simulation source
@@ -147,5 +147,5 @@ After cloning:
 ## Author
 
 **Ananda Thirtha Holehonnur Ravi**  
-MS Computer Engineering — California State University, Northridge  
+MS Computer Engineering — California State University, Northridge 
 [LinkedIn](https://linkedin.com/in/ananda-thirtha-holehonnur-ravi)

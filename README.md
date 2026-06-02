@@ -147,5 +147,5 @@ After cloning:
 ## Author
 
 **Ananda Thirtha Holehonnur Ravi**  
-MS Computer Engineering — California State University, Northridge 
+MS Computer Engineering — California State University, Northridge  
 [LinkedIn](https://linkedin.com/in/ananda-thirtha-holehonnur-ravi)
